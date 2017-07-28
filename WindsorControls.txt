@@ -1,0 +1,33 @@
+XBox Controls for "Windsor": a 2016 FIRST Robotics competition robot built by team 4564.
+
+(Robot is initially inactive.  Press start to enable it.)
+
+Driving:
+
+Left Joystick - Drive
+Back - Disable driving
+Back (Hold for 5 seconds) - Enter shut down mode (all controls disabled and motors set to off state) 
+Start - Enable driving. Also return from shut down mode
+Dpad Down - Slow driving speed
+Dpad Up - Fast driving speed
+
+
+Thrower:
+Left/Right Bumper - Lower/Raise arm
+Dpad Left: Cut power to arm
+Dpad Right: Restore power to arm
+Y - Grab ball through intake
+A - Turn on thrower
+Right Trigger - Launch Ball (will only run if thrower is on)
+Hold down on B - Eject ball
+
+Right Joystick - Thrower Speed settings (5 available, default: 100%)
+	Up: Increment
+	Down: Decrement
+	Left: Set to min power
+	Right: Set to max power
+	Thumbstick: Lock/Unlock Thrower Speed
+
+Cannons:
+X: Fire a single dart from each cannon (not perfectly calibrated yet)
+Left Trigger: Fire darts continuously
