@@ -90,7 +90,12 @@ throwInProgress = False ## State that a throw in in progress.
 throwSpeedLock = False  ## Lock thrower speed in place.
 
 ## Instantiations
-j = xbox.Joystick() ## new joystick
+j = None
+while j is None:
+    try:
+        j = xbox.Joystick() ## new joystick
+    except:
+        print('Retrying XBOX connnection...')
 motors = maestro.Controller() ## new maestro
 dt = drive.DriveTrain(motors, LEFT_MOTORS, RIGHT_MOTORS) ## new drive train
 io.setmode(io.BCM)
